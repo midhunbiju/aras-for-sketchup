@@ -1,0 +1,360 @@
+﻿<AML>
+ <Item type="Form" id="D9834A28A43540D9981DD9D1D458B8FC" action="add">
+  <category_form>0</category_form>
+  <height>350</height>
+  <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
+  <width>699</width>
+  <name>SketchUp Document</name>
+  <Relationships>
+   <Item type="Body" id="8A24A4F2430C4152AB85B4382B9807C7" action="add">
+    <bg_color>#FFFFFF</bg_color>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="SketchUp Document" type="Form">D9834A28A43540D9981DD9D1D458B8FC</source_id>
+    <Relationships>
+     <Item type="Field" id="C72CA104578746FEA5078C940BB3AA44" action="add">
+      <border_width>0</border_width>
+      <display_length>40</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Version</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>512</sort_order>
+      <source_id keyed_name="8A24A4F2430C4152AB85B4382B9807C7" type="Body">8A24A4F2430C4152AB85B4382B9807C7</source_id>
+      <tab_index>1536</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>330</x>
+      <y>90</y>
+      <name>authoring_tool_version</name>
+     </Item>
+     <Item type="Field" id="67CD6398CDE74A87964B503114B9EA7E" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>class structure</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Type</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>384</sort_order>
+      <source_id keyed_name="8A24A4F2430C4152AB85B4382B9807C7" type="Body">8A24A4F2430C4152AB85B4382B9807C7</source_id>
+      <tab_index>520</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>190</x>
+      <y>90</y>
+      <name>classification</name>
+     </Item>
+     <Item type="Field" id="AB84E81EC0834B32AE90F577E49A318D" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>textarea</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Description</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="description" type="Property">1413DCDE7C2F434D8FF00E59F7284E6D</propertytype_id>
+      <sort_order>640</sort_order>
+      <source_id keyed_name="8A24A4F2430C4152AB85B4382B9807C7" type="Body">8A24A4F2430C4152AB85B4382B9807C7</source_id>
+      <tab_index>3712</tab_index>
+      <tab_stop>1</tab_stop>
+      <textarea_cols>305</textarea_cols>
+      <textarea_rows>30</textarea_rows>
+      <x>190</x>
+      <y>137</y>
+      <name>description</name>
+     </Item>
+     <Item type="Field" id="3D25588510964389A4378E16D1A69CAF" action="add">
+      <display_length_unit>px</display_length_unit>
+      <field_type>html</field_type>
+      <html_code><![CDATA[<span id="ITEM_INFO_INTERNAL_SPAN"/>
+<script>
+  populate_ITEM_INFO_INTERNAL_SPAN = function()
+  {
+    document.getElementById("ITEM_INFO_INTERNAL_SPAN").innerHTML = top.aras.uiDrawItemInfoTable(document.itemType);
+    top.aras.uiPopulateInfoTableWithItem(document.item, document);
+  }
+  window.addEventListener("load", populate_ITEM_INFO_INTERNAL_SPAN);
+</script>]]></html_code>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>768</sort_order>
+      <source_id keyed_name="8A24A4F2430C4152AB85B4382B9807C7" type="Body">8A24A4F2430C4152AB85B4382B9807C7</source_id>
+      <tab_stop>0</tab_stop>
+      <x>0</x>
+      <y>0</y>
+      <name>item_info</name>
+     </Item>
+     <Item type="Field" id="673BF50C1047490C803535B019E84326" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Number</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="item_number" type="Property">E6D7A074A87A451FB164642C5F5E6EC0</propertytype_id>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="8A24A4F2430C4152AB85B4382B9807C7" type="Body">8A24A4F2430C4152AB85B4382B9807C7</source_id>
+      <tab_index>128</tab_index>
+      <tab_stop>1</tab_stop>
+      <textarea_cols>350</textarea_cols>
+      <textarea_rows>50</textarea_rows>
+      <x>190</x>
+      <y>10</y>
+      <name>item_number</name>
+     </Item>
+     <Item type="Field" id="455AD78781C34C3481AB2C9B3F6D7D95" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>html</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <html_code><![CDATA[<input type="text" name="major_rev" disabled size="1" value="REV" populate="1"/>
+<input type="button" name="major_rev_increment" value="+" style="width: 16px" onclick="createNewRevision();" />
+<script type="text/javascript">
+function createNewRevision()
+{
+  if(!top.aras.confirm(top.aras.getResource("plm", "createnewrevision.confirm")))
+  { 
+    return;
+  }
+  var dom = top.aras.createXMLDocument();
+  dom.loadXML(parent.item.xml);
+
+  var inItem = dom.selectSingleNode("//Item");
+  
+  var config_id = inItem.selectSingleNode("config_id");
+  var id = inItem.selectSingleNode("id");
+  var keyed_name = inItem.selectSingleNode("keyed_name");
+  var owned_by_id = inItem.selectSingleNode("owned_by_id");
+  var state = inItem.selectSingleNode("state");
+  var itemtype = inItem.selectSingleNode("itemtype");
+  
+  var n = inItem.childNodes.length;
+  for (var i = 0; i < n; i++) 
+  {
+    inItem.removeChild(inItem.childNodes[0]);
+  }
+  
+  inItem.appendChild(config_id);
+  inItem.appendChild(id);
+  inItem.appendChild(keyed_name);
+  inItem.appendChild(owned_by_id);
+  inItem.appendChild(state);
+  inItem.appendChild(itemtype);
+  
+  inItem.setAttribute("action", "PE_CreateNewRevision");
+
+  var res = top.aras.soapSend("ApplyItem",inItem.xml);
+  if (res.getFaultCode() != 0)
+  {
+    top.aras.AlertError(res);
+    return;
+  }
+  res = res.getResultsBody();
+  dom.loadXML(res);
+
+  top.aras.uiReShowItemEx(parent.itemID, dom.documentElement, parent.viewMode);
+}
+</script>]]></html_code>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Revision</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>1152</sort_order>
+      <source_id keyed_name="8A24A4F2430C4152AB85B4382B9807C7" type="Body">8A24A4F2430C4152AB85B4382B9807C7</source_id>
+      <tab_index>1792</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>320</x>
+      <y>10</y>
+      <name>major_rev</name>
+     </Item>
+     <Item type="Field" id="3317781B857B40FFB278E2837F3802BA" action="add">
+      <border_width>0</border_width>
+      <display_length>305</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Name</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="name" type="Property">C3FCE8BC61A24482A27AF5F096273ECA</propertytype_id>
+      <sort_order>256</sort_order>
+      <source_id keyed_name="8A24A4F2430C4152AB85B4382B9807C7" type="Body">8A24A4F2430C4152AB85B4382B9807C7</source_id>
+      <tab_index>256</tab_index>
+      <tab_stop>1</tab_stop>
+      <textarea_cols>350</textarea_cols>
+      <textarea_rows>50</textarea_rows>
+      <x>190</x>
+      <y>50</y>
+      <name>name</name>
+     </Item>
+     <Item type="Field" id="D34C57D151BC41B3A7BEF9E2173E43AF" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>file item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Original file</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="original_file" type="Property">E096ACBADCC3442B8EEB4CE4D9593213</propertytype_id>
+      <sort_order>1536</sort_order>
+      <source_id keyed_name="8A24A4F2430C4152AB85B4382B9807C7" type="Body">8A24A4F2430C4152AB85B4382B9807C7</source_id>
+      <tab_index>1152</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>190</x>
+      <y>190</y>
+      <name>original_file</name>
+     </Item>
+     <Item type="Field" id="86AEE74A80FD49CC8248477112F79D47" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">state</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>1280</sort_order>
+      <source_id keyed_name="8A24A4F2430C4152AB85B4382B9807C7" type="Body">8A24A4F2430C4152AB85B4382B9807C7</source_id>
+      <tab_index>1408</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>380</x>
+      <y>10</y>
+      <name>state</name>
+     </Item>
+     <Item type="Field" id="97B7276F3A594F63A78AED547FB87F37" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>image</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <height>150</height>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="thumbnail" type="Property">ECBC53B8E278463C866384CFB6D66DAA</propertytype_id>
+      <sort_order>1408</sort_order>
+      <source_id keyed_name="8A24A4F2430C4152AB85B4382B9807C7" type="Body">8A24A4F2430C4152AB85B4382B9807C7</source_id>
+      <tab_index>1290</tab_index>
+      <tab_stop>1</tab_stop>
+      <width>150</width>
+      <x>520</x>
+      <y>10</y>
+      <name>thumbnail</name>
+     </Item>
+     <Item type="Field" id="F062F35CC3DE48219ACF44BBBF0A719A" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>file item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Viewable file</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="viewable_file" type="Property">C80B6F960DE74DA1A3F5C17A311F37B0</propertytype_id>
+      <sort_order>1664</sort_order>
+      <source_id keyed_name="8A24A4F2430C4152AB85B4382B9807C7" type="Body">8A24A4F2430C4152AB85B4382B9807C7</source_id>
+      <tab_index>1280</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>190</x>
+      <y>230</y>
+      <name>viewable_file</name>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="Form Event" id="1D3FBE1CD5FE437DA4DDF7193A3FF6AB" action="add">
+    <form_event>onformpopulated</form_event>
+    <related_id keyed_name="Fill Form Fields" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>Fill Form Fields</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="SketchUp Document" type="Form">D9834A28A43540D9981DD9D1D458B8FC</source_id>
+   </Item>
+   <Item type="Form Event" id="6A801E6D6CC848D48EF89B7BD67D7B91" action="add">
+    <form_event>onformpopulated</form_event>
+    <related_id keyed_name="PE_ShowCreateNewRevButton" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>PE_ShowCreateNewRevButton</name>
+     </Item>
+    </related_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="SketchUp Document" type="Form">D9834A28A43540D9981DD9D1D458B8FC</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+ <Item type="Field" id="C72CA104578746FEA5078C940BB3AA44" action="edit">
+  <!-- Please note: this AML depends on the "SketchUp Document" ItemType. Please make sure it exists before running this. -->
+  <propertytype_id>
+   <Item type="Property" action="get" select="id">
+    <name>generation</name>
+    <source_id type="ItemType" keyed_name="SketchUp Document">1B58744A8C64497D9C7B3ED82045D105</source_id>
+   </Item>
+  </propertytype_id>
+ </Item>
+ <Item type="Field" id="67CD6398CDE74A87964B503114B9EA7E" action="edit">
+  <!-- Please note: this AML depends on the "SketchUp Document" ItemType. Please make sure it exists before running this. -->
+  <propertytype_id>
+   <Item type="Property" action="get" select="id">
+    <name>classification</name>
+    <source_id type="ItemType" keyed_name="SketchUp Document">1B58744A8C64497D9C7B3ED82045D105</source_id>
+   </Item>
+  </propertytype_id>
+ </Item>
+ <Item type="Field" id="86AEE74A80FD49CC8248477112F79D47" action="edit">
+  <!-- Please note: this AML depends on the "SketchUp Document" ItemType. Please make sure it exists before running this. -->
+  <propertytype_id>
+   <Item type="Property" action="get" select="id">
+    <name>state</name>
+    <source_id type="ItemType" keyed_name="SketchUp Document">1B58744A8C64497D9C7B3ED82045D105</source_id>
+   </Item>
+  </propertytype_id>
+ </Item>
+</AML>

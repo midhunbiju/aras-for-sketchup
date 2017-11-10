@@ -1,0 +1,50 @@
+﻿<AML>
+ <Item type="Method" id="BF40DDBA04FC4EBCAF5468381A03A786" action="add">
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[var inn = this.getInnovator();
+var dlg = "Sorry, your browser doesn't support this action. You should use Internet Explorer for this.";
+if(top.aras.Browser.isFf()){
+  var params = {};
+  params.buttons = {};
+  with (params) {
+    buttons.btnYes = top.aras.getResource("", "common.ok");
+    defaultButton = 'btnNo';
+  }
+  var msg = top.aras.getResource("", "imports_core.canceling_cannot_be_undone_warning");
+  params.message = dlg;
+  params.aras = top.aras;
+  var options = {
+    dialogWidth: 350,
+    dialogHeight: 130,
+    center: true
+  };
+  top.aras.modalDialogHelper.show('DefaultModal', window, params, options, 'groupChgsDialog.html');
+  return;
+}
+
+try {
+  var file = inn.newItem("File", "get");
+  file.setProperty("id", this.getProperty("original_file"));
+  file = file.apply();
+  var updatedFile = file.checkout(top.aras.vault.getWorkingDir());
+  if( updatedFile.isError() ) {
+    return inn.newError("Cannot checkout file");
+  }
+  var checkedoutPath = updatedFile.getProperty("checkedout_path");
+  try{
+    var openFile = new ActiveXObject("WScript.Shell");
+    openFile.Run("SketchUp.exe \"" + checkedoutPath + "\"");    
+  }
+  catch(err) {
+    return inn.newError("Can't load ActiveX control ('" + err + "').\r\nYou should set 'Initialize and script ActiveX controls not marked as safe for scripting' security setting for trusted sites to 'Enable'");
+  } 
+}
+catch(e)
+{
+  return inn.newError(e);
+}
+]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>SketchUpForAras_OpenFile</name>
+ </Item>
+</AML>

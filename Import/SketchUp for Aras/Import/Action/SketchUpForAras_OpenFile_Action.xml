@@ -1,0 +1,15 @@
+﻿<AML>
+ <Item type="Action" id="01E9B94CC63C471A9052222604F63649" action="add">
+  <item_query>&lt;Item type="{@type}" id="{@id}" levels= "1" action="get" /&gt;</item_query>
+  <label xml:lang="en">Open in SketchUp</label>
+  <location>client</location>
+  <method keyed_name="SketchUpForAras_OpenFile" type="Method">
+   <Item type="Method" action="get" select="id">
+    <name>SketchUpForAras_OpenFile</name>
+   </Item>
+  </method>
+  <target>none</target>
+  <type>item</type>
+  <name>SketchUpForAras_OpenFile_Action</name>
+ </Item>
+</AML>

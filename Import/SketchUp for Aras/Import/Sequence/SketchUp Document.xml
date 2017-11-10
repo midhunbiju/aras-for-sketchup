@@ -1,0 +1,10 @@
+﻿<AML>
+ <Item type="Sequence" id="F86DC75EDA614518BED11E09ED3BE846" action="add">
+  <initial_value>0</initial_value>
+  <pad_to>8</pad_to>
+  <pad_with>0</pad_with>
+  <prefix>SKUP-</prefix>
+  <step>1</step>
+  <name>SketchUp Document</name>
+ </Item>
+</AML>
