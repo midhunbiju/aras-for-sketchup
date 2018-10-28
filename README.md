@@ -71,11 +71,11 @@ The SketchUp extension should be installed using the SketchUp interface:
 The Aras for SketchUp project uses ActiveX controls, so Internet Explorer must be configured to allow ActiveX controls. Note that Firefox does not support ActiveX controls and cannot be used with the Aras for SketchUp project.
 
 1. Open the Internet Options dialog.
-2. Click **Secturity > Trusted Sites > Custom Level.**
+2. Click **Security > Trusted Sites > Custom Level.**
 3. Under "ActiveX controls and plug-ins", enable **Initialize and script ActiveX controls not marked as safe for scripting**.
 4. Click **OK** to confirm your changes and close the Internet Options dialog.
 
-> Note: These steps assume that Internet Explorer is already configured for use with Aras Innovator and the Aras url is added to the Trusted Sites list. If IE is not configured, see the client setup guide for your version of Aras Innovator.
+> Note: These steps assume that Internet Explorer is already configured for use with Aras Innovator and the Aras URL is added to the Trusted Sites list. If IE is not configured, see the client setup guide for your version of Aras Innovator.
 
 You are now ready to use the Aras for SketchUp extension.
 
